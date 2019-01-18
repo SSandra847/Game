@@ -1,0 +1,57 @@
+section#game .score{
+	display:block;
+	position:absolute;
+	top:10px;
+	left:10px;
+}	
+section#game .time{
+	display:block;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+section#game .start{
+	display:block;
+	padding-top:50%;
+	margin: 0 auto 0 auto;
+	text-align:center;
+	width:50%;
+	cursor:pointer;
+}
+section#game .start .high-scores{
+	text-align:left;
+}
+section#game{
+	width:480px;
+	height:800px;
+	max-width:100%;
+	max-height:100%;
+	overflow:hidden;
+	position:relative;
+	background-image:  
+    	url('https://i.pinimg.com/originals/27/76/34/2776349bb0e4735268cc59b7bce5a6ae.jpg'),
+    	url('https://i.pinimg.com/originals/27/76/34/2776349bb0e4735268cc59b7bce5a6ae.jpg'),
+		url('https://ak6.picdn.net/shutterstock/videos/28467886/thumb/1.jpg'),
+	background-position:80% 90%, 10% 90%, left bottom, left top;
+	background-repeat: no-repeat, no-repeat, repeat-x, repeat-x;
+	position: relative;
+	color:#ffffff;
+	font-size:30px;
+	font-family:"arial, sans-serif";
+}
+section#game .gem{
+	display:block;
+	position:absolute;
+	width:40px;
+	height:44px;
+	cursor:pointer;
+}
+section#game .gem .green{
+	background: url('http://growthmedia.ca/wp-content/uploads/2017/01/Growth-Media-is-ROI-Driven.gif')no-repeat top left;
+}
+section#game .gem .blue{
+	background:url('https://i.gifer.com/W9jz.gif') no-repeat top left;
+}
+section#game .gem .orange{	background:url('https://www.charliejabaley.com/assets/css/icons/animated/diamond/animat-diamond.gif') no-repeat top left;
+}
+
